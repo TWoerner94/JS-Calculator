@@ -1,0 +1,98 @@
+
+#header {
+  width: 100%;
+  background-color: #a7e0ee;
+  padding: 5px;
+  color: black;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#calculator {
+  width: 310px;
+  height: 380px;
+  border: 1px black solid;
+  border-radius: 3px;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#display {
+  position: relative;
+  background-color: white;
+  width: 85%;
+  height: 10%;
+  margin: 4% auto;
+  border-radius: 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#numbers {
+  position: absolute;
+  max-width: 245px;
+  overflow: hidden;
+  right: 5px;
+  margin: auto;
+  color: black;
+  font-family: orbitron;
+}
+
+#inputField {
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  margin: 0px auto;
+  top: 57px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 6.9px;
+  background-color: #1e2b3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 10%;
+  font-size: 1.2em;
+  color: white;
+  box-shadow: 0px 5px 10px black;
+}
+
+button:active {
+  top: 2px;
+  box-shadow: 0px 4px 10px black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#clear, #add, #equal {
+  width: 45%;
+}
+
+#clear {
+  background-color: #dd1d00;
+}
